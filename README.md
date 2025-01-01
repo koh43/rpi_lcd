@@ -2,10 +2,6 @@
 
 ## Before you start...
 The LCD module best works with **32-bit** Bullseye Raspberry Pi OS!
-If bcm_host.h is missing,
-```
-sudo apt-get install libraspberrypi-dev
-```
 
 ## Official Docs
 [Waveshare 2inch LCD Module](https://www.waveshare.com/wiki/2inch_LCD_Module#FBCP_Porting)
@@ -13,6 +9,10 @@ sudo apt-get install libraspberrypi-dev
 ## FBCP
 The code and nice documentation are available at:
 [fbcp-ili9341](https://github.com/juj/fbcp-ili9341)
+
+### Required Modifications
+
+Please follow this [modification](https://github.com/juj/fbcp-ili9341/issues/248#issuecomment-982675699) so Pi can access the LCD module.
 
 Here are the CMake options I used for my Raspberry Pi 3B+:
 ```
@@ -25,3 +25,5 @@ cmake -DST7789VW=ON \
 -DBACKLIGHT_CONTROL=ON \
 -DSTATISTICS=0 ..
 ```
+
+The details of all CMake options are described at: [fbcp-ili9341](https://github.com/juj/fbcp-ili9341)
