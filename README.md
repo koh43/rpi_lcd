@@ -2,6 +2,10 @@
 
 ## Before you start...
 The LCD module best works with **32-bit** Raspberry Pi OS!
+For Bookworm OS, install the following
+```
+sudo apt-get install libraspberrypi-dev
+```
 
 ## Official Docs
 [Waveshare 2inch LCD Module](https://www.waveshare.com/wiki/2inch_LCD_Module#FBCP_Porting)
