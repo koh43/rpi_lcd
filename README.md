@@ -1,8 +1,8 @@
 # Raspberry Pi Waveshare 2-inch LCD
 
 ## Before you start...
-The LCD module best works with **32-bit** Raspberry Pi OS!
-For Bookworm OS, install the following
+The LCD module best works with **32-bit** Bullseye Raspberry Pi OS!
+If bcm_host.h is missing,
 ```
 sudo apt-get install libraspberrypi-dev
 ```
