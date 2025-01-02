@@ -1,13 +1,13 @@
-# Raspberry Pi Waveshare 2-inch LCD
+# Raspberry Pi Waveshare 2-inch LCD (320x240)
 
 ## Before you start...
 The LCD module best works with **32-bit** Bullseye Raspberry Pi OS!
 
-## Official Docs
+## Official Docs (Not recommended)
 [Waveshare 2inch LCD Module](https://www.waveshare.com/wiki/2inch_LCD_Module#FBCP_Porting)
 
-## FBCP
-The code and nice documentation are available at:
+## FBCP (Recommended)
+The original repository has a nice documentation and it is available at:
 [fbcp-ili9341](https://github.com/juj/fbcp-ili9341)
 
 ### Required Modifications
